@@ -1,0 +1,7 @@
+Versiòn 4:
+1. Se tienen 2 clases: Main ejecutora, PetClass
+2. La clase PetClass 
+    - Contiene los atributos y los getter de cada atributo, 
+    - Tiene un mètodo que imprime los valores de cada variable mediante los mètodos GET
+    - Tiene el constructor de la clase que recibe los pamatros que le llegan desde la clase Main a PetClass
+3. En la clase Main, se crean 3 instancias de la clase PetClass con informaciòn de diferentes mascotas
