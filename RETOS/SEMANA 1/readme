@@ -1,1 +1,24 @@
+A partir de la siguiente estructura del proyecto, generamos 7 ejercicios donde practicaremos condicionales, ciclos y ciclos con condicionales.
+Por cada ejercicio se creará una clase independiente.
+La clase ejecutora fue renombrada por Main.java
 
+
+
+1. Solicitarle al usuario nombre, género y edad. El programa debe identificar si es hombre o mujer mayor de edad.
+2. Crear un programa donde el usuario ingresa un número y el sistema valida si es número es par o impar.
+3. Crear un programa donde el usuario ingresa un número y el sistema valida si es número es par o impar. El número ingresado debe ser negativo.
+4. Crear un programa donde el usuario ingresa un número y el sistema valida si es número es par negativo, de lo contrario vuelve a solicitarle el número, 
+hasta que cumpla dicha restricción.
+5. Crear un programa que solicita al usuario la contraseña de su wifi, la cual es “ABC123”, sólo tendrá 3 intentos. Al 3 intento incorrecto, el sistema 
+le mostrará un mensaje indicando que ha sido bloqueado.
+6. Crear un programa que solicita al usuario la contraseña de su wifi, la cual es “ABC123”, sólo tendrá 3 intentos. Al 3 intento incorrecto, el sistema 
+le mostrará un mensaje indicando que ha sido bloqueado. Si el ingreso es correcto, debe solicitarle identificar el número faltante en la sucesión que 
+cumple con el siguiente patrón:
+| 2 | 9 | 16 | 23 | 30 | 37 | 44 | Nuevamente solo contará con 3 intentos. Si el número ingresado es correcto, debe mostrar un mensaje de “Bienvenido al sistema”.
+7. Crear un programa que solicite al usuario su nombre y una letra a buscar dentro de su nombre. El sistema debe mostrar un mensaje que indique la cantidad 
+de caracteres que tiene su nombre y la cantidad de ocurrencias de la letra que ingresó. Ejemplo:
+              Nombre: Alejandra
+              Letra a buscar: a
+              Cantidad de ocurrencias: 3
+Importante: el sistema debe de contar la letra independiente de que se encuentre en mayúscula o minúscula. Puedes revisar la siguiente referencia:
+https://www.delftstack.com/es/howto/java/count-characters-in-a-string-java/#:~:text=La%20pr%C3%A1ctica%20m%C3%A1s%20com%C3%BAn%20para,longitud%20total%20de%20esta%20cadena.
