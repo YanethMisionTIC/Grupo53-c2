@@ -13,9 +13,16 @@ import java.util.Scanner;
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
+    public static final String ANSI_BLACK = "\u001B[30m";
+    public static final String ANSI_RED = "\u001B[31m";
+    public static final String ANSI_GREEN = "\u001B[32m";
+    public static final String ANSI_YELLOW = "\u001B[33m";
+    public static final String ANSI_BLUE = "\u001B[34m";
+    public static final String ANSI_PURPLE = "\u001B[35m";
+    public static final String ANSI_CYAN = "\u001B[36m";
+    public static final String ANSI_WHITE = "\u001B[37m";
+    public static final String ANSI_RESET = "\u001B[0m";
+
     public static void main(String[] args) {
         //1. Creamos la instancia de la librería Scanner
         Scanner scannerInstance = new Scanner(System.in);
@@ -34,8 +41,8 @@ public class Main {
         // exitMenu = false
         // !exitMenu = true
         while (!exitMenu) {
-            System.out.println("            SELECCIONA UNA OPCIÓN DEL MENU");
-            System.out.println("1. Ejercicio 1\n2. Ejercicio 2\n3. Ejercicio 3\n4. Ejercicio 4\n5. Ejercicio 5\n6. Ejercicio 6\n7. Ejercicio 7\n8. Salir\n>>>");
+            System.out.println(ANSI_BLUE + "            SELECCIONA UNA OPCIÓN DEL MENU" +ANSI_RESET);
+            System.out.println("1. Ejercicio 1\n2. Ejercicio 2\n3. Ejercicio 3\n4. Ejercicio 4\n5. Ejercicio 5\n6. Ejercicio 6\n7. Ejercicio 7\n8. Salir\n"+ ANSI_RED + ">>>"+ANSI_RESET);
             menuOption = scannerInstance.nextInt();
 
             switch (menuOption) {
