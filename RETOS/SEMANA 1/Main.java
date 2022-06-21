@@ -17,8 +17,13 @@ public class Main {
     public static void main(String[] args) {
         //1. Creamos las instancias de las demás clases del paquete
         Exercise1 exercise1Instance = new Exercise1();
-        
+        Exercise2 exercise2Instance = new Exercise2();
+        Exercise3 exercise3Instance = new Exercise3();
+        Exercise4 exercise4Instance = new Exercise4();
         //2. Mediante la instancia lo creamos
         exercise1Instance.RequestDataUser();
+        exercise2Instance.NumberOddEven();
+        exercise3Instance.NegativeNumberOddEven();
+        exercise4Instance.NegativeNumberOdd();
     }
 }
