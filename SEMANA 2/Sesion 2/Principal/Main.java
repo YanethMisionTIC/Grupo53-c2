@@ -22,5 +22,14 @@ public class Main {
         System.out.println("ArrayPersonas:\n    [\n" + instanceEmployee1.toString()
                 + ",\n" + instanceEmployee2.toString() + ",\n"
                 + instanceEmployee3.toString() + "\n    ]");
+        
+        /*
+        =================================================================================
+        ==================================Client====================================
+        =================================================================================
+        */
+        
+        Client instanceClient1 = new Client(false, "Ivan", "Marquez", "C.C.", "75230230", "ivan@gmail.com", "Manizales");
+        System.out.println(instanceClient1.toString());
     }
 }
